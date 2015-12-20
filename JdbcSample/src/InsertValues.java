@@ -12,6 +12,7 @@ public class InsertValues {
 		ps.setString(3, "manager");
 		int count=ps.executeUpdate();
 		System.out.println("updated values is:"+count);
+		System.out.println("hi");
 		con.close();
 	}
 
